@@ -70,3 +70,11 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+
+# bcrypt() is a sophisticated and secure hash algorithm designed by The OpenBSD project for hashing passwords. The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
+gem 'bcrypt', '~> 3.1', '>= 3.1.20'
+
+
+# Middleware that will make Rack-based apps CORS compatible.
+gem 'rack-cors', '~> 2.0', '>= 2.0.2'
