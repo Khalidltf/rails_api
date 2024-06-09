@@ -13,7 +13,7 @@ class RegistrationsController < ApplicationController
         user: user
       }
     else
-      render json: {status: "try again!"}
+      render json: { status: 'try again!' }
     end
   end
 end

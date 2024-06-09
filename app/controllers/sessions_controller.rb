@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     if user
       session[:user_id] = user.id
       render  json: {
-        status: "201 created",
+        status: :created,
         logged_in: true,
         user: user
       }
